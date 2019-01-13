@@ -8,7 +8,7 @@
 
 
     <fragment
-        android:id="@+id/fragment8"
+        android:id="@+id/menuFragment"
         android:name="com.intent.fragment.hp.frgmentintant.menuBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
         android:orientation="vertical">
 
         <fragment
-            android:id="@+id/fragment9"
+            android:id="@+id/homeFragment"
             android:name="com.intent.fragment.hp.frgmentintant.homeScreen"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -30,7 +30,7 @@
             tools:layout="@layout/fragment_home_screen" />
 
         <fragment
-            android:id="@+id/fragment10"
+            android:id="@+id/iconFragment"
             android:name="com.intent.fragment.hp.frgmentintant.iconFregmentBottom"
             android:layout_width="match_parent"
             android:layout_height="0dp"
