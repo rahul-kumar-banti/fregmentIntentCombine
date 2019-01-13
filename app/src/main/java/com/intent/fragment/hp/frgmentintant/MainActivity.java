@@ -73,9 +73,11 @@ FragmentManager manager=this.getSupportFragmentManager();;
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==ActivityCodeForForm){
-            if(requestCode==RESULT_OK)
+            Toast.makeText(MainActivity.this,"result working but nor req",Toast.LENGTH_SHORT).show();
+            if(resultCode==RESULT_OK)
             {
                 manager.beginTransaction().show(manager.findFragmentById(R.id.iconFragment)).commit();
+
             }
         }
     }

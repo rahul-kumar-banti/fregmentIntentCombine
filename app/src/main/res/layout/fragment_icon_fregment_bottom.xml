@@ -10,13 +10,12 @@
 
 
     <ImageView
-        android:id="@+id/imgmood"
+        android:id="@+id/imgMood"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
         android:layout_weight="1"
-        android:clickable="true"
-        android:src="@drawable/sad" />
+        android:src="@drawable/smile" />
 
     <ImageView
         android:id="@+id/imgWeb"
@@ -24,7 +23,6 @@
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
         android:layout_weight="1"
-        android:clickable="true"
         android:src="@drawable/web" />
 
     <ImageView
@@ -33,7 +31,6 @@
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
         android:layout_weight="1"
-        android:clickable="true"
         android:src="@drawable/call" />
 
     <ImageView
@@ -42,6 +39,5 @@
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
         android:layout_weight="1"
-        android:clickable="true"
         android:src="@drawable/email_24dp" />
 </LinearLayout>
